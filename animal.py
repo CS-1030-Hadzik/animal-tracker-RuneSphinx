@@ -16,11 +16,11 @@ class Animal:
     # TODO: Add a method to make a generic sound 
     # Call the method `speak` and make it output a specific message like 
     # "The animal makes a noise.""
-    def make_sound(self):
-        print(f"{self.name} makes a noise")
+    def speak(self):
+        print(f"The animal makes a noise.")
 
     # TODO __str__ method for string representation
     # Example output
     # Kingdom: 'kingdom attribute', Name: 'name attribute' Species: 'species attribute' 
     def __str__(self):
-        return f"Kingdom: {self.kingdom}, Name: {self.name}, Species: {self.species}"
+        return f"Kingdom: '{self.kingdom}', Name: '{self.name}', Species: '{self.species}'"
